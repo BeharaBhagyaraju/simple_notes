@@ -4,7 +4,7 @@ import { getToken } from '../utils/storage';
 // Base URL — points to the backend server
 // Update this when deploying to production
 const BASE_URL = __DEV__
-  ? 'http://localhost:5000/api'
+  ? 'http://192.168.1.17:5000/api'
   : 'https://your-production-url.onrender.com/api';
 
 // Create Axios instance
